@@ -1,0 +1,113 @@
+/* Sets the font for every child element within this HTML file */
+html * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+    padding: .5em 2em;
+    font-weight: bold;
+}
+
+.hero-section {
+    background-color: #1f2937 ;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4em;
+    padding-right: 4em;
+    gap: 8em;
+}
+
+
+/* Styling my navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 ;
+    gap: 1.5em;
+}
+
+.link-list li a {
+    color:rgb(201, 201, 201);
+}
+
+/* Styling the introduction section */
+.introduction {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 5em;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.main-text {
+    font-size: 48px;
+    margin: 0;
+    color: white;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-image {
+    flex: 1;
+    border-radius: 10px;
+}
+
+/* Styling my information section */
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5em;
+    padding-bottom: 4em;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.info-box-group {
+    display: flex;
+}
+
+/* Aligning the image and text with the center of the container */
+.info-box {
+    text-align: center;
+}
+
+.info-box img {
+    border-radius: 10px;
+    border: solid #3882f6;
+}

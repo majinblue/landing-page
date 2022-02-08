@@ -5,60 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Creating a div for each section within the page -->
+    <!-- Hero Section Flex Container -->
     <div class="hero-section">
         <div class="navbar">
-            <a href="">Header Logo</a>
-            <a href="">Link One</a>
-            <a href="">Link Two</a>
-            <a href="">Link Three</a>
+            <a class="logo" href="">Header Logo</a>
+            <ul class="link-list">
+                <li><a href="">Link One</a></li>
+                <li><a href="">Link Two</a></li>
+                <li><a href="">Link Three</a></li>
+            </ul>
         </div>
         <div class="introduction">
             <div class="hero-text">
-                <h2>This website is awesome</h2>
-                <p>Placeholder subtext. There will be some important info here eventually.</p>
+                <h2 class="main-text">This website is awesome</h2>
+                <p class="secondary-text">This website has some subtext that goes here under the main title.
+                    It's a smaller font and the color is lower contrast.
+                </p>
                 <button>Sign up</button>
             </div>
-            <img class="hero-image" src="/images/mountain.jpg" alt="image of a mountain">
+            <img class="hero-image" src="./images/galaxy.jpg" alt="image of a mountain">
         </div>
     </div>
 
-    <div class="info-group">
-        <h2>Some random information</h2>
-        <div class="image-and-description">
-            <img src="/images/space.jpg" alt="">
-            <p>Random text</p>
-        </div>
-        <div class="image-and-description">
-            <img src="/images/space.jpg" alt="">
-            <p>Random text</p>
-        </div>
-        <div class="image-and-description">
-            <img src="/images/space.jpg" alt="">
-            <p>Random text</p>
-        </div>
-        <div class="image-and-description">
-            <img src="/images/space.jpg" alt="">
-            <p>Random text</p>
+    <!-- Information Section Flex Container -->
+    <div class="information">
+        <p class="info-header">Some random information.</p>
+        <div class="info-box-group">
+            <div class="info-box">
+                <img src="./images/sun.jpg" alt="">
+                <p>This is some subtext under and illustration or image</p>
+            </div>
+            <div class="info-box">
+                <img src="./images/sun.jpg" alt="">
+                <p>This is some subtext under and illustration or image</p>
+            </div>
+            <div class="info-box">
+                <img src="./images/sun.jpg" alt="">
+                <p>This is some subtext under and illustration or image</p>
+            </div>
+            <div class="info-box">
+                <img src="./images/sun.jpg" alt="">
+                <p>This is some subtext under and illustration or image</p>
+            </div>
+            
         </div>
     </div>
+    
 
-    <div class="testimonial">
-        <p class="customer-review">This is just a review from a customer!</p>
-        <p> Customer Name</p>
-    </div>
-
-    <div class="call-to-action">
-        <h2>Call to action! It's time!</h2>
-        <p>Sign up for our product by clicking the button!</p>
-        <button>Sign up!</button>
-    </div>
-
-    <footer>
-        <p>Copyright @ Essan Blue 2022</p>
-    </footer>
+    
 </body>
 </html>
