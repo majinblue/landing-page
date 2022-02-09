@@ -111,3 +111,59 @@ ul {
     border-radius: 10px;
     border: solid #3882f6;
 }
+
+/* Styling my testimonial section */
+
+.testimonial {
+    background-color: #e5e7eb ;
+    padding: 4em 12em;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#author {
+    font-weight: bold;
+    text-align: end;
+}
+
+/* Styling my action call section */
+.call-container {
+    display: flex;
+    justify-content: center;
+    padding: 8em;
+}
+
+.call-box {
+    background-color: #3882f6 ;
+    padding: 3em 5em ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 3em;
+}
+
+.call-text p {
+    color: white;
+    margin: 0;
+}
+
+.call-header {
+    font-weight: bold;
+}
+
+.call-box button {
+    border: white solid;
+}
+
+/* Styling the footer */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 2em;
+}
